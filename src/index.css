@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 2rem;
+    background-color: black;
+    color: white;
+    @apply font-mono
+}
