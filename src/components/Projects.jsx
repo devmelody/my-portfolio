@@ -10,6 +10,16 @@ const projects = [
     demo: "https://cloud9ja-weather.vercel.app/",
     github: "https://github.com/devmelody/cloud9ja-weather",
   },
+  {
+  title: "Rencar",
+  img: "rencar.png",
+  description:
+    "A collaborative hackathon project — Rencar makes renting and sharing cars as easy as ordering coffee. Built with a full-stack setup to handle listings, bookings, and user authentication smoothly.",
+  tech: "React, Python, Express, PostgreSQL, TailwindCSS",
+  demo: "https://carltd.netlify.app",
+  github: "https://github.com/teamairbnb",
+},
+
 ];
 
 function Projects() {
