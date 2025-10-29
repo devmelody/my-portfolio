@@ -29,7 +29,7 @@ function Projects() {
     setChange((prev) => (prev === 0 ? projects.length - 1 : prev - 1));
   };
   const handleNext = () => {
-    setChange((prev) => (prev === project.length - 1 ? 0 : prev + 1));
+    setChange((prev) => (prev === projects.length - 1 ? 0 : prev + 1));
   };
   const project = projects[change];
   return (
